@@ -31,11 +31,31 @@ a {
   font-weight: 400;
   text-align: center;
 }
+.desc {
+  color: #575f66;
+  font-family: Sora;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.75; /* 175% */
+}
+.desc1 {
+  color: #10375c;
+  text-align: center;
+  font-family: Sora;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
 /* ------ header */
 .header {
   background: var(--header-bg);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding-top: 36px;
+  padding-bottom: 110px;
 }
 .header-top {
   display: flex;
@@ -45,6 +65,7 @@ a {
 
 .navbar__list {
   display: flex;
+  justify-content: center;
 }
 .header__action--login,
 .navbar__link {
@@ -83,6 +104,7 @@ a {
   display: flex;
   align-items: center;
   padding-top: 84px;
+  /* padding-bottom: 110px; */
 }
 .hero__content {
   width: 44%;
@@ -143,4 +165,73 @@ a {
   height: 410px;
   border-radius: 0 6px 6px 0;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.ourservices {
+  background: #fff;
+  padding: 170px;
+}
+.services__heading {
+  color: #10375c;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.ourservices__desc {
+  width: 468px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+.services__body {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services__img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: url(<path-to-image>) lightgray 0px -1.3px / 100% 149.93% no-repeat;
+}
+.services__item {
+  display: flex;
+  width: 470px;
+  padding: 21px;
+  transition: 0.25s;
+}
+.services__item:hover {
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+.services__item:hover .services__icon {
+  color: #fff;
+  background: #2e80ce;
+}
+.services__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #eff6fd;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 19px;
+  transition: 0.25s;
+}
+.services__heading {
+  color: #10375c;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.services__btn {
+  margin-top: 55px;
 }
