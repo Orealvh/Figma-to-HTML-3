@@ -3,6 +3,7 @@
 }
 :root {
   --header-bg: #10375cff;
+  --border-works: #2e80ce;
 }
 html {
   font-size: 62.5%;
@@ -49,6 +50,13 @@ a {
   font-weight: 600;
   line-height: 1.2; /* 120% */
   letter-spacing: -1px;
+}
+.desc2 {
+  color: #10375c;
+  font-family: Sora;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.37; /* 138.462% */
 }
 /* ------ header */
 .header {
@@ -234,4 +242,53 @@ a {
 }
 .services__btn {
   margin-top: 55px;
+}
+.works {
+  /* margin: 170px ; */
+  background: #f6fbff;
+}
+.works__list {
+  display: flex;
+  margin-top: 86px;
+  gap: 62px;
+
+  padding-bottom: 115px;
+}
+
+.works__item {
+  width: 338px;
+  height: 370px;
+  border-radius: 4px;
+  background: #fff;
+  /* border: 16px solid transparent; */
+}
+.works__item:hover {
+  border: 16px solid var(--border-works);
+}
+.works__text1 {
+  width: 410px;
+}
+.works__heading {
+  padding-top: 100px;
+  text-align: start;
+}
+.works__icon {
+  margin: 42px 0 18px 42px;
+}
+.works__text {
+  margin: 0 0 28px 42px;
+}
+.works__text2 {
+  margin: 0 42px 18px 42px;
+}
+.works__text3 {
+  color: #575f66;
+  font-family: Sora;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+  margin-left: 42px;
+}
+.works__text3:hover {
+  color: #2e80ce;
 }
