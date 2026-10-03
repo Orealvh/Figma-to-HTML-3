@@ -291,4 +291,5 @@ a {
 }
 .works__text3:hover {
   color: #2e80ce;
+  text-shadow: 2px #2e80ce;
 }
