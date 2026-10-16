@@ -541,6 +541,18 @@ a {
   display: inline-block;
   margin: 10px 21px 22px;
 }
+.blog__item--btn{
+  color: #10375C;
+font-family: Sora;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.blog__item--btn:hover{
+  color: #2E80CE;
+ 
+}
 /* ==========appoitment==== */
 .cta-f {
   margin-bottom: 85px;
